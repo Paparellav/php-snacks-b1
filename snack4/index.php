@@ -22,6 +22,15 @@ Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà co
   }
   var_dump($integersArray);
   ?>
+
+  <h1>Array di numeri:</h1>
+  <ul>
+    <?php for ($i = 0; $i < count($integersArray); $i++) { ?>
+      <li>
+        <?php echo $integersArray[$i] ?>
+      </li>
+    <?php } ?>
+  </ul>
 </body>
 
 </html>
